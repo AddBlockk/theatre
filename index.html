@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style/mainPage/MainPage.css" />
+    <title>Главная</title>
+  </head>
+  <body style="overflow-y: auto">
+    <header class="header">
+      <div class="header__container">
+        <div class="header__container-wrapper">
+          <div class="header__container-wrapper_Logo">
+            <a href="/">
+              <img src="./img/mainPage/Logo.svg" width="100%" />
+            </a>
+          </div>
+          <div class="header__container-wrapper_menu">
+            <menu>
+              <ul class="wrapper_menu-list">
+                <li class="wrapper_menu-list_item">
+                  <a href="./index.html" class="wrapper_menu-list_link"
+                    >Главная</a
+                  >
+                </li>
+                <li class="wrapper_menu-list_item">
+                  <a href="./poster.html" class="wrapper_menu-list_link"
+                    >Афиша</a
+                  >
+                </li>
+                <li class="wrapper_menu-list_item">
+                  <a href="./news.html" class="wrapper_menu-list_link"
+                    >Новости</a
+                  >
+                </li>
+                <li class="wrapper_menu-list_item">
+                  <a href="./" class="wrapper_menu-list_link">О театре</a>
+                </li>
+              </ul>
+            </menu>
+          </div>
+          <div class="header__container-wrapper_but">
+            <img src="./img/mainPage/Menu.svg" width="100%" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div
+      class="header__container-wrapper_modal"
+      style="transform: translate(0px, -100%); display: none">
+      <menu>
+        <ul class="wrapper_modal-list">
+          <li class="wrapper_modal-list_item">
+            <a href="./index.html" class="wrapper_modal-list_link">Главная</a>
+          </li>
+          <li class="wrapper_modal-list_item">
+            <a href="./poster.html" class="wrapper_modal-list_link">Афиша</a>
+          </li>
+          <li class="wrapper_modal-list_item">
+            <a href="./news.html" class="wrapper_modal-list_link">Новости</a>
+          </li>
+          <li class="wrapper_modal-list_item">
+            <a href="./" class="wrapper_modal-list_link">О театре</a>
+          </li>
+        </ul>
+      </menu>
+    </div>
+
+    <main class="main">
+      <section class="section">
+        <div class="section1__container">
+          <div class="section1__container-wrapper">
+            <img src="./img/mainPage/maxresdefault.jpg" />
+
+            <div class="section1__container-wrapper_title">
+              <h1>Астраханский театр Народных искусств</h1>
+            </div>
+            <div class="section1__container-wrapper_navigation">
+              <button class="wrapper_navigation">
+                <img src="./img/mainPage/Vector 5.svg" />
+              </button>
+              <button class="wrapper_navigation">
+                <img src="./img/mainPage/Vector 4.svg" />
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section2__container section__container">
+          <div class="section2__container-information">
+            <div class="section2__container-information_Date">
+              <div class="information_Date-item">
+                <p>Дата основания</p>
+                <h1>1932 год</h1>
+              </div>
+              <div class="information_Date-item">
+                <p>2020-2021 год</p>
+                <h1>34 спекталя</h1>
+              </div>
+              <div class="information_Date-item">
+                <p>Абсолютно для всех</p>
+                <h1>0+</h1>
+              </div>
+            </div>
+            <div class="section2__container-information_More">
+              <a href="#">Узнать подробнее</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section2__container section__container">
+          <div class="section2__container-premiere">
+            <div class="section3__container-premiere_header">
+              <h1>Ближайшие премьеры</h1>
+            </div>
+            <div class="section3__container-premiere_grid">
+              <div class="section3__container-premiere_grid_item">
+                <img src="./img/mainPage/image 2.svg" alt="" />
+                <div class="premiere_grid_item-date">
+                  <form action="">
+                    <button class="date-form_time">24 мая, 18:30</button>
+                    <button class="date-form_age">14 +</button>
+                  </form>
+                </div>
+                <div class="premiere_grid_item-info">
+                  <div class="premiere_grid_item-info_title">
+                    <h1>Щелкунчик Балет</h1>
+                  </div>
+                  <div class="premiere_grid_item-info_desc">
+                    <p>
+                      Им противостоит отважный Щелкунчик с немногочисленной
+                      армией елочных игрушек. Щелкунчик сражается с мышиной
+                      армией, но силы неравны. Еще немного…
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="section3__container-premiere_grid_item">
+                <img src="./img/mainPage/image 1.svg" alt="" />
+                <div class="premiere_grid_item-date">
+                  <form action="">
+                    <button class="date-form_time">20 мая, 18:30</button>
+                    <button class="date-form_age">16 +</button>
+                  </form>
+                </div>
+                <div class="premiere_grid_item-info">
+                  <div class="premiere_grid_item-info_title">
+                    <h1>В гостях у Дедушки Мороза</h1>
+                  </div>
+                  <div class="premiere_grid_item-info_desc">
+                    <p>
+                      Дедушка Мороз снова появляется в Астрахани и теперь его
+                      хотят лишить нового года. Что же будет делать Дед Мороз?
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="section3__container-premiere_grid_item">
+                <img src="./img/mainPage/Rectangle 145.svg" alt="" />
+                <div class="premiere_grid_item-date">
+                  <form action="">
+                    <button class="date-form_time">24 мая, 18:30</button>
+                    <button class="date-form_age">16 +</button>
+                  </form>
+                </div>
+                <div class="premiere_grid_item-info">
+                  <div class="premiere_grid_item-info_title">
+                    <h1>Пиковая Дама</h1>
+                  </div>
+                  <div class="premiere_grid_item-info_desc">
+                    <p>
+                      «Пиковая дама» – это захватывающий
+                      музыкально-психологический триллер, отлитый по знаменитой
+                      троичной формуле «тройка – семерка – туз»
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="section3__container-premiere_grid_item">
+                <img src="./img/mainPage/Rectangle 145-1.svg" alt="" />
+                <div class="premiere_grid_item-date">
+                  <form action="">
+                    <button class="date-form_time">24 мая, 18:30</button>
+                    <button class="date-form_age">16 +</button>
+                  </form>
+                </div>
+                <div class="premiere_grid_item-info">
+                  <div class="premiere_grid_item-info_title">
+                    <h1>Открытая репетиция</h1>
+                  </div>
+                  <div class="premiere_grid_item-info_desc">
+                    <p>
+                      «Репетиция оркестра» – это своего рода «китайская
+                      шкатулка», игра в игре, — рассказывает режиссер спектакля
+                      Георгий Исаакян.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section3__container">
+          <div class="section3__container-scrollInfo">
+            <div class="section3__container-scrollInfo_content">
+              <div class="scrollInfo_content-item">
+                <button>Правила поведения</button>
+              </div>
+              <div class="scrollInfo_content-item">
+                <button>Панорама зала</button>
+              </div>
+              <div class="scrollInfo_content-item">
+                <button>История театра</button>
+              </div>
+              <div class="scrollInfo_content-item">
+                <button>Коллектив театра</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section2__container section__container">
+          <div class="section2__container-premiere">
+            <div class="section3__container-premiere_header">
+              <h1>Новости театра</h1>
+            </div>
+
+            <div class="section3__container-News_grid">
+              <div class="News_grid-item">
+                <img src="./img/mainPage/Rectangle 153.svg" alt="" />
+
+                <div class="News_grid-text">
+                  <div class="News_grid-text_title">
+                    <h1>
+                      Новогодняя кампания стартует с 16 декабря и продлится до 8
+                      января
+                    </h1>
+                    <p>30.11.23</p>
+                  </div>
+                  <div class="News_grid-text_desc">
+                    <p>
+                      В Астраханском театре оперы и балета Новогодняя кампания
+                      стартует с 16 декабря и продлится до 8 января включительно
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="News_grid-item">
+                <img src="./img/mainPage/Rectangle 154.svg" alt="" />
+
+                <div class="News_grid-text">
+                  <div class="News_grid-text_title">
+                    <h1>
+                      Астраханский театр оперы и балета представляет веселую и
+                      смешную оперу для самых маленьких!
+                    </h1>
+                    <p>27.11.23</p>
+                  </div>
+                  <div class="News_grid-text_desc">
+                    <p>
+                      Астраханский театр оперы и балета представляет веселую и
+                      смешную оперу для самых маленьких! В основе сюжета баллада
+                      о «королевском бутерброде» английского писателя Алана
+                      Милна.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="News_grid-item">
+                <img src="./img/mainPage/Rectangle 155.svg" alt="" />
+
+                <div class="News_grid-text">
+                  <div class="News_grid-text_title">
+                    <h1>
+                      Порадуйте ваших мам вместе с Астраханским театром оперы и
+                      балета!
+                    </h1>
+                    <p>23.11.23</p>
+                  </div>
+                  <div class="News_grid-text_desc">
+                    <p>
+                      Традиционно в последнее ноябрьское воскресенье в России
+                      отмечают международный праздник - День матери. В 2023 году
+                      он выпадает на 26 ноября.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="News_grid-item">
+                <img src="./img/mainPage/Rectangle 156.svg" alt="" />
+
+                <div class="News_grid-text">
+                  <div class="News_grid-text_title">
+                    <h1>«Спартак» Елизарьева: впервые в Астрахани</h1>
+                    <p>23.11.23</p>
+                  </div>
+                  <div class="News_grid-text_desc">
+                    <p>
+                      8 и 9 декабря жители и гости Астрахани смогут увидеть
+                      легендарный балет А. Хачатуряна «Спартак»,
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="container-footer">
+          <a href="/">
+            <img class="logo-footer" src="./img/mainPage/Logo.svg" alt="" />
+          </a>
+          <div>
+            <h5>Меню</h5>
+            <ul class="footer-menu">
+              <li><a href="/index.html">Главная</a></li>
+              <li><a href="/services.html">Афиша</a></li>
+              <li><a href="/news.html">Новости</a></li>
+              <li><a href="/services.html">О театре</a></li>
+            </ul>
+          </div>
+          <div>
+            <h5>Сервисы</h5>
+            <ul class="footer-service">
+              <li><a href="/services.html">Площадки</a></li>
+              <li><a href="/services.html">Услуги</a></li>
+              <li><a href="/services.html">Документы</a></li>
+              <li><a href="/services.html">Труппа</a></li>
+            </ul>
+          </div>
+          <ul class="footer-social">
+            <li>
+              <a href="/"><img src="./img/mainPage/facebook.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="/"><img src="./img/mainPage/twitter.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="/"><img src="./img/mainPage/insta.svg" alt="" /></a>
+            </li>
+          </ul>
+        </div>
+        <div class="line"></div>
+        <div class="copyright-container">
+          <div><p>Copyright © 2023 Тюз. Все Права Защищены.</p></div>
+          <div class="terms-privacy-container">
+            <a href="/"><span>Условия Использования</span></a>
+            <a href="/"><span>Конфиденциальность</span></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/Menu.js"></script>
+  </body>
+</html>
