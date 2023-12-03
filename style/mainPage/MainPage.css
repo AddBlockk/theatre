@@ -579,6 +579,21 @@ footer {
   color: var(--Text_Dark, #391400);
 }
 
+@media (width < 800px) {
+  .copyright-container {
+    flex-wrap: wrap;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+  .terms-privacy-container {
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}
+
 .agency-title {
   color: var(--Text_Dark, #391400);
   text-align: center;
